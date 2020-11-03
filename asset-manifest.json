@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.e614cc0d.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.e614cc0d.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.c850c0e7.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.c850c0e7.js.map",
-    "static/js/2.c798dc13.chunk.js": "/my-portfolio/static/js/2.c798dc13.chunk.js",
-    "static/js/2.c798dc13.chunk.js.map": "/my-portfolio/static/js/2.c798dc13.chunk.js.map",
-    "static/js/3.c5040ad9.chunk.js": "/my-portfolio/static/js/3.c5040ad9.chunk.js",
-    "static/js/3.c5040ad9.chunk.js.map": "/my-portfolio/static/js/3.c5040ad9.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.23a471fd.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.37f0ee21.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.37f0ee21.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.217e22e0.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.217e22e0.js.map",
+    "static/js/2.02cd238b.chunk.js": "/my-portfolio/static/js/2.02cd238b.chunk.js",
+    "static/js/2.02cd238b.chunk.js.map": "/my-portfolio/static/js/2.02cd238b.chunk.js.map",
+    "static/js/3.6beed348.chunk.js": "/my-portfolio/static/js/3.6beed348.chunk.js",
+    "static/js/3.6beed348.chunk.js.map": "/my-portfolio/static/js/3.6beed348.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/my-portfolio/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.c798dc13.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.c798dc13.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/my-portfolio/static/media/logo.103b5fa1.svg"
+    "static/css/main.23a471fd.chunk.css.map": "/my-portfolio/static/css/main.23a471fd.chunk.css.map",
+    "static/js/2.02cd238b.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.02cd238b.chunk.js.LICENSE.txt",
+    "static/media/C-printf-function.8e2849b5.png": "/my-portfolio/static/media/C-printf-function.8e2849b5.png",
+    "static/media/RecipEat.8d40ea74.png": "/my-portfolio/static/media/RecipEat.8d40ea74.png",
+    "static/media/airbnb.376d29c9.png": "/my-portfolio/static/media/airbnb.376d29c9.png",
+    "static/media/simple_shell.43d69702.png": "/my-portfolio/static/media/simple_shell.43d69702.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c850c0e7.js",
-    "static/js/2.c798dc13.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.e614cc0d.chunk.js"
+    "static/js/runtime-main.217e22e0.js",
+    "static/js/2.02cd238b.chunk.js",
+    "static/css/main.23a471fd.chunk.css",
+    "static/js/main.37f0ee21.chunk.js"
   ]
 }
