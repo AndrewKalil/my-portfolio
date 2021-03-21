@@ -5,6 +5,7 @@ import simple_shell from './images/simple_shell.png'
 import printf from './images/C-printf-function.png'
 import airbnb from './images/airbnb.png'
 import recipeat from './images/RecipEat.png'
+import kaliland from './images/kaliland.png'
 
 // Made by Yago Estévez (Twitter: @yagoestevez.com)
 
@@ -145,8 +146,8 @@ const About = props => {
           <div className="desc">
             <h4 className="subtitle">I am also a learner.</h4>
             <p>
-              Although I am technically done with school, I will always feel like a student because I bever want to stop learning. For this reason, 
-              I try to take as much advantage as possible of courses available online whether they are paid or not, as long as they enhance my 
+              Although I am technically done with school, I will always feel like a student because I bever want to stop learning. For this reason,
+              I try to take as much advantage as possible of courses available online whether they are paid or not, as long as they enhance my
               programming knowledge.
             </p>
           </div>
@@ -194,9 +195,9 @@ const Project = props => {
           <a href={repo} target="_blank" rel="noopener noreferrer">
             View source <i className="fas fa-external-link-alt" />
           </a>
-          <a href={link} target="_blank" rel="noopener noreferrer">
+          {link !== '#' && <a href={link} target="_blank" rel="noopener noreferrer">
             Try it Live <i className="fas fa-external-link-alt" />
-          </a>
+          </a>}
         </div>
       </div>
     </div>
@@ -229,7 +230,7 @@ const Projects = props => {
             title="Simple Shell"
             img={simple_shell}
             tech="Bash"
-            link="https://unknown-page"
+            link="#"
             repo="https://github.com/cbarros7/simple_shell.git"
           >
             <small>
@@ -244,14 +245,14 @@ const Projects = props => {
             title="Printf"
             img={printf}
             tech="c bash"
-            link="https://unknown-page"
+            link="#"
             repo="https://github.com/AndrewKalil/printf.git"
           >
             <small>
               Built using C and Bash.
             </small>
             <p>
-              Another roject created to replicate the c printf function.This project does not have a try it link but you can access the 
+              Another roject created to replicate the c printf function.This project does not have a try it link but you can access the
               code from the repo with the sorce button.
             </p>
           </Project>
@@ -259,12 +260,12 @@ const Projects = props => {
             title="AirBnB Clone"
             img={airbnb}
             tech="HTML CSS Javascript MySQL Python Flask"
-            link="https://unknown-page"
+            link="#"
             repo="https://github.com/hfsantiago/AirBnB_clone_v4.git"
           >
             <small>Built using HTML, CSS, Javascript, MySQL, and Python with frameworks like Flask.</small>
             <p>
-              A full-stack website that replicates an AirBnB and handles users who want to rent an appartment for a trip or other reasons. This project does not 
+              A full-stack website that replicates an AirBnB and handles users who want to rent an appartment for a trip or other reasons. This project does not
               have a try it link but you can access the code from the repo with the sorce button
             </p>
           </Project>
@@ -279,6 +280,21 @@ const Projects = props => {
             <p>This is my portfolio project which I am so proud to showcase. It is an independent porject which I worked on along with a group of
               4 other memebers. The application allows users to create recipes and look for recipes for based on the ingredients in your immediate availability.
               The project is still under development but it is coming along very well.</p>
+          </Project>
+		  <Project
+            title="Kaliland"
+            img={kaliland}
+            tech="ReactJs CSS HTML"
+            link="https://kalilandmenu.netlify.app/"
+            repo="https://github.com/AndrewKalil/menu_kaliland"
+          >
+            <small>Built using ReactJs, CSS, HTML.</small>
+            <p>This is a project that I am currently working on. The idea was to create a menu for my fast food
+				business in Barranquilla, Colombia. The application has the functions of adding items to the cart,
+				remove them, modify them, and finally message one of the employees with a list of items that will
+				be ordered. I am currently working on adding a delivery rate calculator based on the distance of the
+				delivery.
+			</p>
           </Project>
         </div>
       </div>
